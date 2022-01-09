@@ -1,0 +1,7 @@
+Cells can be defined as alive or dead (probably using 1 or 0).
+A set of rules define how this changes over one time iteration.
+
+RULES 
+1. Any live cell with two or three live neighbours survives.
+2. Any dead cell with three live neighbours becomes a live cell.
+3. All other cells die.
