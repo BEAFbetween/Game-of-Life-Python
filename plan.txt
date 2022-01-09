@@ -5,3 +5,11 @@ RULES
 1. Any live cell with two or three live neighbours survives.
 2. Any dead cell with three live neighbours becomes a live cell.
 3. All other cells die.
+
+PROCESS
+1. Define an array of cells of size n (square for the moment). 
+2. Define a time length for one iteration (e.g. delay 0.25 seconds before each update).
+3. Assign the initial state of the array (which cells are initially alive or dead). 
+4. Check the number of neighbours of each cell and decide whether it will be alive or dead after the next iteration. 
+5. Update the array after one iteration. 
+6. Rinse and repeat.
