@@ -13,3 +13,6 @@ PROCESS
 4. Check the number of neighbours of each cell and decide whether it will be alive or dead after the next iteration. 
 5. Update the array after one iteration. 
 6. Rinse and repeat.
+
+To accomplish this I will create a module that contains all the defined relevant functions such as checking the state of the cell, deciding its state after one iteration, and
+changing the cell after one iteration. 
