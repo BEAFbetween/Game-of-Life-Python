@@ -25,7 +25,16 @@ def update(frameNum, img, array, n): # totaling the number of LIVE cells neighbo
     array[:] = newGrid[:]
     return img
 
+def glider(i, j, array): # add glider with top left cell i,j
+    glider = np.array([[0, 0, 1],
+                       [1, 0, 1],
+                       [0, 1, 1]])
+    array[i:i+3, j:j+3] = glider
+    
+
 init = init_array(n) # create initial conditions in an array
+# init = np.zeros(n*n).reshape(n,n) # checks to see if it is working
+# glider(3, 3, init)
 newGrid = init.copy() # create a copy of that array that will become the grid after one time interval
 
 fig, ax = plt.subplots()
