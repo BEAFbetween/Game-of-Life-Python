@@ -16,3 +16,6 @@ PROCESS
 
 To accomplish this I will create a module that contains all the defined relevant functions such as checking the state of the cell, deciding its state after one iteration, and
 changing the cell after one iteration. 
+
+IMPORTANT NOTES
+1. Using toroidal boundary conditions i.e. x and y wrap around.
