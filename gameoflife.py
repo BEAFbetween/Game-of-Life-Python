@@ -17,4 +17,4 @@ def update(array, i, j, n, newGrid): # totaling the number of LIVE cells neighbo
         if total == 3:
             newGrid[i,j] = LIVE
     
-    img
+    # img
